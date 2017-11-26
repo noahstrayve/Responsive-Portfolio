@@ -1,0 +1,448 @@
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.Bio {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	
+}
+
+.ProfilePic {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-right: 25px;
+	
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background: #ffffff;
+	padding: 10px;
+	float: left;
+	margin-left: -10px;
+	margin-top: -10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	
+}
+
+.links {
+	text-align: right;
+	margin-right: 35px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.MyNameBox {
+	background: #4aaaa5;
+	width: 200px;
+	height: 80px;
+	float: left;
+	margin-top: -60px;
+	margin-left: 160px;
+
+}
+
+.MyName {
+	color: #ffffff;
+	padding: 10px;
+	text-align: center
+
+}
+
+body {
+	background-color: #eeeeee;
+	margin: 0px 0px 0px 0px;
+}
+
+.MainPage {
+	width: 584px;
+	padding: 30px;
+	margin-left: 160px;
+	background: #ffffff;
+	margin-top: 100px;
+	float: left;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+.InputField {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	height: 20px;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.InputFieldMessage {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	height: 20px;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.InputTitle {
+	float: left;
+	color: #777777;
+	font-size: 130%;
+	height: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.Submit {
+    background: #4aaaa5;
+    border: none;
+    color: white;
+    margin: 4px 2px;
+    padding: 16px 32px;
+    cursor: pointer;
+    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+	width: 100%;
+	height: 20px;
+	background-color: #666666;
+	float: left;
+	height: 60px;
+	margin-top: 40px;
+	border-color: #4aaaa5;
+	border-style: solid;
+	border-width: 5px;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.ConnectBox {
+	background: #ffffff;
+	float: left;
+	width: 270px;
+	height: 160px;
+	margin-left: 40px;
+	margin-top: 100px;
+	text-align: center;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+.GitHub {
+	height: 60px;
+	width: 60px;
+
+}
+
+.LinkedIn {
+	height: 60px;
+	width: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.StackOverflow {
+	height: 60px;
+	width: 60px;
+}
+
+.floating-box {
+	width: 250px;
+	height: 190px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #4aaaa5;
+	float: left;
+	margin-right: 22px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.PortfolioPics {
+	width: 250px;
+	height: 190px;
+}
+
+aside {
+	width: 100%;
+	height: 50px;
+	background: #4aaaa5;
+	overflow: inherit;
+	position: absolute;
+	float: left;
+	margin-top: -60px;
+}
+
+.Copyright {
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ffffff;
+}
+.hline {
+	width:100%;
+	height:1px;
+	background: #fff;
+	float: left;
+}
+
+@media screen and (max-width: 980px) {
+	.MainPage {
+		width: 400px;
+		margin-left: 120px;
+	}
+
+	.ProfilePic {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.MyNameBox {
+		margin-left: 120px;
+	}
+
+	.PortfolioPics {
+		width: 380px;
+		height: 289px;
+	}
+
+	.floating-box {
+		width: 380px;
+		height: 289px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	.MainPage {
+		width: 668px;
+		float: left;
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+	
+	.InputTitle {
+		float: left;
+		color: #777777;
+		font-size: 130%;
+		height: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.InputField {
+		width: 98%;
+		float: left;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		height: 20px;
+		border-width: 3px;
+		border-style: solid;
+	}
+
+	.InputFieldMessage {
+		width: 98%;
+		float: left;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		height: 20px;
+		border-width: 3px;
+		border-style: solid;
+	}
+
+	.PortfolioPics {
+		width: 300px;
+		height: 289px;
+	}
+
+	.floating-box {
+		width: 300px;
+		height: 289px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.MyNameBox {
+		margin-left: 20px
+	}
+
+	.ProfilePic {
+		width: 250px;
+		height: 180px
+	}
+
+	.ConnectBox {
+		width: 728px;
+		float: left;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	h3 {
+		margin-left: 20px;
+		float: left;
+		align-content: left; 
+	}
+
+	hr {
+		align-content: left;
+		clear: both;
+	}
+
+	.IconBox {
+		float: left;
+		clear: both;
+		align-content: left;
+		text-align: left;
+		margin-top: 10px;
+		width: 300px
+	}
+
+	footer {
+		width: 748px;
+		float: left;
+	}
+
+	.GitHub {
+		float: left;
+		margin-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	.LinkedIn {
+		float: left;
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	.StackOverflow {
+		float: left;
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	header {
+		position: static;
+		margin: 0px 0px 0px 0px;
+		width: 102%;
+		float: left;
+		height: 100px
+
+	}
+
+	.MyNameBox {
+		width: 100%;
+		float: left;
+		margin-top: -10px;
+		margin-right: 0px;
+		margin-left: -10px;
+	}
+	
+	.MainPage {
+		width: 530px;
+		float: left;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.PortfolioPics {
+		width: 500px;
+		height: 350px;
+	}
+
+	.floating-box {
+		width: 500px;
+		height: 350px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.ConnectBox {
+		width: 590px;
+		float: left;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	footer {
+		width: 100%;
+		float: left;
+	}
+
+	.Bio {
+		float: left;
+	}
+
+	.ProfilePic {
+		width: 520px;
+		height: 300px;
+	}
+
+	.links {
+		height: 70px;
+		width: 100%;
+		float: left;
+		position: absolute;
+		text-align: center;
+		vertical-align: middle;
+		margin-right: 0px;
+		margin-top: 65px;
+	}
+
+	.IconBox {
+		float: left;
+		clear: both;
+		align-content: left;
+		text-align: left;
+		width: 300px;
+		margin-top: 0px;
+		margin-bottom: 10px
+	}
+
+	.GitHub {
+		float: left;
+		margin-left: 20px;
+		margin-top: 10px;
+
+	}
+
+	.LinkedIn {
+		float: left;
+		margin-top: 10px;
+	}
+
+	.StackOverflow {
+		float: left;
+		margin-top: 10px;
+	}
+
+	hr {
+		align-content: left;
+		clear: both;
+	}
+
+
+}
